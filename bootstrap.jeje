@@ -1,1 +1,1 @@
-sudo apt-get install vim git git-gui build-essential kolorpaint4 gimp
+sudo apt-get install vim git git-gui build-essential kolorpaint4 gimp libboost-all-dev
