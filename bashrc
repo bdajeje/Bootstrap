@@ -1,6 +1,15 @@
 # Git aliases
 alias gs='git status'
 alias gb='git branch'
+alias gc='git checkout'
+
+# Seevibes aliases
+alias cdsv='cd /home/jeje/Seevibes/repositories'
+
+# Projects aliases
+alias cd_alarm='cd /home/jeje/Documents/Programming/Cpp/qtalarm/qtalarm'
+alias cd_notes='cd /home/jeje/Documents/Programming/Cpp/notes/Notes'
+alias cd_jengine='cd /home/jeje/Documents/Programming/Cpp/jengine/jengine'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
