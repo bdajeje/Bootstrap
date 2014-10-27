@@ -1,0 +1,2 @@
+xbacklight -dec 20
+xbacklight -inc 20
