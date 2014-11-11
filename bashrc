@@ -2,6 +2,8 @@
 alias gs='git status'
 alias gb='git branch'
 alias gc='git checkout'
+alias gaa='git add -A'
+alias gp='git push origin'
 
 # Seevibes aliases
 alias cdsv='cd /home/jeje/Seevibes/repositories'
