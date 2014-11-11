@@ -7,8 +7,8 @@ alias gc='git checkout'
 alias cdsv='cd /home/jeje/Seevibes/repositories'
 
 # Projects aliases
-alias cd_alarm='cd /home/jeje/Documents/Programming/Cpp/qtalarm/qtalarm'
-alias cd_notes='cd /home/jeje/Documents/Programming/Cpp/notes/Notes'
+alias cd_prog='cd /home/jeje/Documents/Programming/'
+alias cd_jengine='cd_prog && cd Cpp/jengine/jengine'
 alias cd_jengine='cd /home/jeje/Documents/Programming/Cpp/jengine/jengine'
 
 # enable programmable completion features (you don't need to enable
