@@ -4,6 +4,7 @@ alias gb='git branch'
 alias gc='git checkout'
 alias gaa='git add -A'
 alias gp='git push origin'
+alias gl='git log --graph --pretty=format:'\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit --'
 
 # Seevibes aliases
 alias cdsv='cd /home/jeje/Seevibes/repositories'
