@@ -6,13 +6,24 @@ alias gaa='git add -A'
 alias gp='git push origin'
 alias gl='git log --graph --pretty=format:'\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit --'
 
-# Seevibes aliases
-alias cdsv='cd /home/jeje/Seevibes/repositories'
-
 # Projects aliases
 alias cd_prog='cd /home/jeje/Documents/Programming/'
-alias cd_jengine='cd_prog && cd Cpp/jengine/jengine'
-alias cd_jengine='cd /home/jeje/Documents/Programming/Cpp/jengine/jengine'
+alias cdpp='cd /home/jeje/Documents/Programming/Cpp/MercenariesLife/MercenariesLife'
+alias cdtest='cd /home/jeje/Documents/Programming/Cpp/test/build-Test-Desktop_Qt_5_3_0_GCC_64bit-Release'
+
+# Azzimov aliases
+alias cdaz='cd /home/jeje/Documents/Azzimov/Projets/'
+alias cddaneel='cd /home/jeje/Documents/Azzimov/Projets/Daneel-Library/Daneel-Library/'
+alias sshedgar='ssh jeremy@10.0.1.17'
+
+# Programs aliases
+alias weather='~/Documents/Programming/Go/bin/wego'
+
+# Docker aliases
+alias dps='docker ps -a'
+alias dimgs='docker images'
+alias drm='docker rm'
+alias drmi='docker rmi'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -28,3 +39,6 @@ fi
 # Git information in prompt
 export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
 export GIT_PS1_SHOWDIRTYSTATE=1
+
+# Source RVM to use rvm tool
+# source /home/jeje/.rvm/scripts/rvm
