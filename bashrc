@@ -37,8 +37,15 @@ if ! shopt -oq posix; then
 fi
 
 # Git information in prompt
-export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
-export GIT_PS1_SHOWDIRTYSTATE=1
+# Don't use this one anymore as it takes way too much time with big git projects. Instead use the following block
+# export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
+# export GIT_PS1_SHOWDIRTYSTATE=1
+
+# Add git branch if its present to PS1
+parse_git_branch() {
+ git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[01;31m\]$(parse_git_branch)\[\033[00m\]\$ '
 
 # Source RVM to use rvm tool
 # source /home/jeje/.rvm/scripts/rvm
