@@ -11,19 +11,11 @@ alias cd_prog='cd /home/jeje/Documents/Programming/'
 alias cdpp='cd /home/jeje/Documents/Programming/Cpp/MercenariesLife/MercenariesLife'
 alias cdtest='cd /home/jeje/Documents/Programming/Cpp/test/build-Test-Desktop_Qt_5_3_0_GCC_64bit-Release'
 
-# Azzimov aliases
-alias cdaz='cd /home/jeje/Documents/Azzimov/Projets/'
-alias cddaneel='cd /home/jeje/Documents/Azzimov/Projets/Daneel-Library/Daneel-Library/'
-alias sshedgar='ssh jeremy@10.0.1.17'
+# Shortcut aliases
+alias swap_clean='sudo swapoff -a && sudo swapon -a'
 
 # Programs aliases
 alias weather='~/Documents/Programming/Go/bin/wego'
-
-# Docker aliases
-alias dps='docker ps -a'
-alias dimgs='docker images'
-alias drm='docker rm'
-alias drmi='docker rmi'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
