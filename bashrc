@@ -5,17 +5,10 @@ alias gc='git checkout'
 alias gaa='git add -A'
 alias gp='git push origin'
 alias gl='git log --graph --pretty=format:'\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'\'' --abbrev-commit --'
-
-# Projects aliases
-alias cd_prog='cd /home/jeje/Documents/Programming/'
-alias cdpp='cd /home/jeje/Documents/Programming/Cpp/MercenariesLife/MercenariesLife'
-alias cdtest='cd /home/jeje/Documents/Programming/Cpp/test/build-Test-Desktop_Qt_5_3_0_GCC_64bit-Release'
+alias gm="git status | grep modified: | cut -f 2 | cut -f 4 -d ' '"
 
 # Shortcut aliases
 alias swap_clean='sudo swapoff -a && sudo swapon -a'
-
-# Programs aliases
-alias weather='~/Documents/Programming/Go/bin/wego'
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
