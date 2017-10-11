@@ -1,1 +1,1 @@
-sudo apt-get install vim git git-gui meld build-essential gimp libboost-all-dev calibre cmake kolourpaint4 avidemux vlc audacious openshot audacity unetbootin
+sudo apt-get install vim git git-gui meld build-essential gimp libboost-all-dev calibre cmake kolourpaint4 vlc unetbootin yakuake
