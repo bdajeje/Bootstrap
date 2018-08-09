@@ -1,1 +1,1 @@
-sudo apt-get install vim git git-gui meld build-essential gimp libboost-all-dev calibre cmake kolourpaint4 vlc yakuake ssh
+sudo apt-get install vim git git-gui meld build-essential gimp libboost-all-dev calibre cmake kolourpaint4 vlc yakuake ssh curl
