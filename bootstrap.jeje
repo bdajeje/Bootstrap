@@ -1,1 +1,1 @@
-sudo apt install vim git git-gui meld build-essential gimp libboost-all-dev calibre cmake kolourpaint4 vlc yakuake ssh curl wget htop valgrind
+sudo apt install vim git git-gui meld build-essential gimp libboost-all-dev calibre cmake kolourpaint4 vlc yakuake ssh curl wget htop valgrind mongodb redis-server
